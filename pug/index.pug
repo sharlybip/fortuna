@@ -7,8 +7,16 @@ html(lang="en")
         link(rel="stylesheet", href="../css/style.css")
         title La Fortuna :: Cafetería
     body
-        header 
-            h1 La Fortuna 
+        header
+            .logo-container 
+                img.logo(src="../images/logo.jpg", alt="Logo de la fortuna")
+                h1 La Fortuna
+            .visitor 
+                p Visitante
+                //-- hitwebcounter Code START
+                a(href="https://www.hitwebcounter.com", target="_blank")
+                img(src="https://hitwebcounter.com/counter/counter.php?page=7954903&style=0024&nbdigits=5&type=page&initCount=0", title="Free Counter", Alt="Contador web",   border="0")                               
+                                                
         main.menu
             p Descarga nuestro menú 
             a.download(href="../docs/menu.pdf", download="La-Fortuna-menú") Descagar
